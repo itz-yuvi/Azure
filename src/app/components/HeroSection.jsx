@@ -33,20 +33,23 @@ export default function HeroSection() {
           transition={{ duration: 1.1, ease: 'easeOut', delay: 0.4 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.98 }}
-            className="bg-gray-900 text-white px-6 py-3 rounded-full text-sm tracking-wide cursor-pointer hover:bg-gray-800 transition"
-          >
-            Book Your Stay
-          </motion.button>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.98 }}
-            className="border border-gray-900 text-gray-900 px-6 py-3 rounded-full text-sm tracking-wide cursor-pointer hover:bg-gray-100 transition"
-          >
-            Explore the Resort
-          </motion.button>
+          <motion.a
+  href="/contact"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.98 }}
+  className="bg-gray-900 text-white px-6 py-3 rounded-full text-sm tracking-wide cursor-pointer hover:bg-gray-800 transition inline-block"
+>
+  Book Your Stay
+</motion.a>
+<motion.a
+  href="/suites"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.98 }}
+  className="border border-gray-900 text-gray-900 px-6 py-3 rounded-full text-sm tracking-wide cursor-pointer hover:bg-gray-100 transition inline-block"
+>
+  Explore the Resort
+</motion.a>
+
         </motion.div>
       </motion.div>
     </section>
