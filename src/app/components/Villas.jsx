@@ -6,12 +6,12 @@ import Image from 'next/image';
 const suites = [
   {
     name: 'Oceanview Suite',
-    src: '/assets/villa1.jpg',
+    src: '/assets/villa1.jpeg',
     description: 'Experience unparalleled views of the ocean from your private balcony.',
   },
   {
     name: 'Beachfront Villa',
-    src: '/assets/villa2.jpg',
+    src: '/assets/villa2.jpeg',
     description: 'Enjoy the luxury of a private villa right on the beach.',
   },
   {
@@ -26,7 +26,7 @@ const suites = [
   },
   {
     name: 'Mountain View Lodge',
-    src: '/assets/gallery1.jpg',
+    src: '/assets/gallery1.jpeg',
     description: 'Embrace the serenity of the mountains in your exclusive lodge.',
   },
   {
@@ -85,7 +85,7 @@ export default function Villas() {
                   <p className="text-gray-600 text-sm mb-4">{suite.description}</p>
                   <button
                     onClick={() => window.location.href = '/contact'}
-                    className="bg-gray-900 text-white px-6 py-2 rounded-full text-sm tracking-wide hover:bg-gray-800 transition"
+                    className="bg-gray-900 text-white px-6 py-2 rounded-full text-sm tracking-wide cursor-pointer hover:bg-gray-800 transition"
                   >
                     Book Now
                   </button>

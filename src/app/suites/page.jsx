@@ -5,13 +5,13 @@ import Link from 'next/link';
 
 const suiteList = [
   {
-    image: '/assets/gallery1.jpg',
+    image: '/assets/gallery1.jpeg',
     title: 'Ocean View Suite',
     description: 'A lavish suite offering breathtaking ocean views with a private balcony and modern amenities.',
     features: ['King-size Bed', 'Ocean View', 'Private Balcony', 'Luxury Amenities'],
   },
   {
-    image: '/assets/gallery2.jpg',
+    image: '/assets/gallery2.jpeg',
     title: 'Garden Retreat Suite',
     description: 'A tranquil suite nestled amidst lush greenery, featuring a spa-like bathroom and a private garden.',
     features: ['Rainfall Shower', 'Private Garden', 'Spa Bath', 'Floor-to-Ceiling Windows'],
@@ -35,7 +35,7 @@ const suiteList = [
     features: ['Private Chef', 'Expansive Living Area', '24/7 Concierge', 'Panoramic Views'],
   },
   {
-    image: '/assets/gallery6.jpg',
+    image: '/assets/gallery6.jpeg',
     title: 'Poolside Suite',
     description: 'Relax and unwind in a serene suite with a private pool, garden views, and all the luxury amenities.',
     features: ['Private Pool', 'Garden Views', 'Sun Loungers', 'Luxury Amenities'],
@@ -47,7 +47,7 @@ const suiteList = [
     features: ['Mountain Views', 'Private Balcony', 'Cozy Fireplace', 'Hiking Trails'],
   },
   {
-    image: '/assets/gallery8.jpg',
+    image: '/assets/gallery8.jpeg',
     title: 'Skyline Suite',
     description: 'Stay in a futuristic suite with panoramic city views, high-tech amenities, and luxurious interiors.',
     features: ['Panoramic City Views', 'Smart Home Technology', 'Modern Design', 'Private Balcony'],

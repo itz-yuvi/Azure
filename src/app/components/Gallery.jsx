@@ -3,18 +3,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
 const images = [
-  '/assets/gallery1.jpg',
-  '/assets/gallery2.jpg',
+  '/assets/gallery1.jpeg',
+  '/assets/gallery2.jpeg',
   '/assets/gallery3.jpg',
   '/assets/gallery4.jpg',
   '/assets/gallery5.jpg',
-  '/assets/gallery6.jpg',
+  '/assets/gallery6.jpeg',
   '/assets/gallery7.jpg',
-  '/assets/gallery8.jpg',
+  '/assets/gallery8.jpeg',
   '/assets/gallery9.jpg',
   '/assets/gallery10.jpg',
   '/assets/villa3.jpg',
-  '/assets/villa2.jpg'
+  '/assets/villa2.jpeg'
 ];
 
 export default function Gallery() {

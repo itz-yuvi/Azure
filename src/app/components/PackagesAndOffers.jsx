@@ -9,14 +9,14 @@ const offers = [
     description:
       'Celebrate love with a romantic 5-night stay including champagne on arrival, sunset sail, and spa treatments.',
     badge: 'Couples Favorite',
-    image: '/assets/villa1.jpg',
+    image: '/assets/villa1.jpeg',
   },
   {
     name: 'Wellness Retreat',
     description:
       'Unwind with sunrise yoga, guided beach meditation, organic meals, and oceanview spa therapy in this 3-night package.',
     badge: 'Mind & Body',
-    image: '/assets/villa2.jpg',
+    image: '/assets/villa2.jpeg',
   },
   {
     name: 'Summer Escape – 20% Off',
