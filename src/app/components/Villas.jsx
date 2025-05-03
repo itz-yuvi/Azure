@@ -31,7 +31,7 @@ const suites = [
   },
   {
     name: 'Lakeside Cottage',
-    src: '/assets/gallery2.jpg',
+    src: '/assets/gallery2.jpeg',
     description: 'A charming cottage by the lake, perfect for peaceful getaways.',
   },
   {
